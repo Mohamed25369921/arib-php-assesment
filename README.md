@@ -27,9 +27,10 @@ The Laravel Employee Management System is a robust web application designed to m
 ---
 
 ## 👥 Default Users (Seeded)
-### The following default users are created by the seeder:
 
-Role	  Email	                Password
-Admin	  admin@system.com	    password
-Manager	  manager@system.com	password
-Employee  employee@system.com	password
+| **Role**   | **Email**             | **Password** |
+|------------|-----------------------|--------------|
+| Admin      | admin@system.com      | password     |
+| Manager    | manager@system.com    | password     |
+| Employee   | employee@system.com   | password     |
+
