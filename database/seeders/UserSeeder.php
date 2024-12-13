@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
         $adminUser = User::create([
             'first_name' => 'Admin',
             'last_name' => 'User',
-            'email' => 'admin@example.com',
+            'email' => 'admin@system.com',
             'password' => bcrypt('password'), // Use a strong password in production
             'role' => 'admin',
         ]);
@@ -29,7 +29,7 @@ class UserSeeder extends Seeder
         $managerUser = User::create([
             'first_name' => 'Manager',
             'last_name' => 'User',
-            'email' => 'manager@example.com',
+            'email' => 'manager@system.com',
             'password' => bcrypt('password'), // Use a strong password in production
             'role' => 'manager',
         ]);
@@ -40,7 +40,7 @@ class UserSeeder extends Seeder
         $employeeUser = User::create([
             'first_name' => 'Employee',
             'last_name' => 'User',
-            'email' => 'employee@example.com',
+            'email' => 'employee@system.com',
             'password' => bcrypt('password'), // Use a strong password in production
             'role' => 'employee',
         ]);
